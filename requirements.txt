@@ -1,43 +1,37 @@
 # FIFA International Match Outcome Prediction System
-# Requirements — pinned for full reproducibility
+# Requirements — relaxed pins for cross-platform / cross-Python-version compatibility
 # Install: pip install -r requirements.txt
 
 # Core data
-pandas==2.2.3
-numpy==1.26.4
+pandas>=2.2
+numpy>=1.26
 
 # Machine learning
-scikit-learn==1.5.2
-joblib==1.4.2
-scipy==1.13.1
+scikit-learn>=1.5
+joblib>=1.4
+scipy>=1.13
 
 # Visualisation
-matplotlib==3.9.2
-seaborn==0.13.2
+matplotlib>=3.9
+seaborn>=0.13
 
 # Notebook support
-jupyter==1.1.1
-notebook==7.2.2
-ipykernel==6.29.5
-nbformat==5.10.4
-nbconvert==7.16.4
+jupyter>=1.1
+notebook>=7.2
+ipykernel>=6.29
+nbformat>=5.10
+nbconvert>=7.16
 
 # Web application
-streamlit==1.39.0
+streamlit>=1.39
 
 # Optional — enhanced visuals (install separately if available)
-# plotly==5.24.1        # interactive charts in Streamlit
-# missingno==0.5.2      # missing-value heatmaps in EDA notebook
+# plotly>=5.24        # interactive charts in Streamlit
+# missingno>=0.5      # missing-value heatmaps in EDA notebook
 
 # Optional — advanced ML (install separately if available)
-# xgboost==2.1.1        # XGBoost classifier (falls back to ExtraTrees)
-# shap==0.46.0          # SHAP feature importance plots in notebook 04
+# xgboost>=2.1         # XGBoost classifier (falls back to ExtraTrees)
+# shap>=0.46           # SHAP feature importance plots in notebook 04
 
 # Serialisation
-# pyarrow==17.0.0       # fast parquet I/O (falls back to CSV if unavailable)
-
-# Development / quality
-# pytest==8.3.3
-# black==24.10.0
-# flake8==7.1.1
-# mypy==1.11.2
+# pyarrow>=17.0        # fast parquet I/O (falls back to CSV if unavailable)
